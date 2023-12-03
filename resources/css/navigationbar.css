@@ -1,0 +1,15 @@
+/* Style the navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #F0FFFF;
+  }
+  
+  /* Style the navigation bar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #1B1212;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
