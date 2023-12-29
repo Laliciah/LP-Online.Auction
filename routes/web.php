@@ -13,24 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/Homepage', function () {
-    return view('homepage');
+Route::get('/', function () {
+    return view('1_PaginaInicial');
 });
 
-Route::get('/Obras', function () {
-    return view('obras');
+Route::get('/obras', function () {
+    return view('2_Obras');
 });
 
-Route::get('/Us', function () {
-    return view('aboutus');
+Route::get('/licitar', function () {
+    return view('3_Licitar');
 });
 
-Route::get('/Contactos', function () {
-    return view('contactos');
+Route::get('/sobre', function () {
+    return view('4_SobreNos');
 });
 
-Route::get('/Licitar', function () {
-    return view('licitar');
-});
+
   
-
+Route::get('/teste', function () {
+    return view('teste');
+});
