@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('1_PaginaInicial');
 });
 
@@ -29,8 +29,6 @@ Route::get('/sobre', function () {
     return view('4_SobreNos');
 });
 
-
-  
 Route::get('/teste', function () {
     return view('teste');
 });
