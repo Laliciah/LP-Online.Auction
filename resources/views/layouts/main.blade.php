@@ -107,9 +107,9 @@
         <img src="/img/LogotipoXtoura.jpg" class="logo" alt="Logo">
         <a href="teste" style="float:right">Cadastrar</a>
         <a href="sobre" style="float:right">Sobre Nós</a>
-        <a href="licitar" style="float:right">Licitar</a>
+        <a href="formsauction" style="float:right">Licitar</a>
         <a href="obras" style="float:right">Obras</a>
-        <a href="home" style="float:right">Página Inicial</a>
+        <a href="/" style="float:right">Página Inicial</a>
 
     </div>
 <!-- Navigation bar: End -->
